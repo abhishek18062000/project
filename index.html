@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Books</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/js1.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" />
+	<link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<style>
+	.owl-prev{
+		left:-30px;
+	}
+	
+	.owl-next{
+		right:-30px;
+	}
+	
+	.owl-prev, .owl-next{
+		position:absolute;
+		top:30%;
+	}
+	
+	.owl-prev span, .owl-next span{
+		font-size:60px;
+		color:#787878;
+	}
+	
+	.owl-theme .owl-nav[class*="owl-"]:hover{
+		background-color:transparent;
+	}
+  </style>
+  </head>
+  
+  
+<body style="background-color: 	#F2F2F2;">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#" ><img src="image/nav_icon.png">BOOKBAZAR.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" style="font-family: 'PT Serif', cursive;"><img src="image/notification_icon.png" style="padding-right:30px;">Notification Preferences</a>
+                <a class="dropdown-item" href="#" style="font-family: 'PT Serif', cursive;"><img src="image/sell_icon.png" style="padding-right:30px;">Sell on Bookbazar</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" style="font-family: 'PT Serif', cursive;">Something else here</a>
+                  </div>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login & Signup </a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <div class="modal fade" id="exampleModal" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="username">
+	        <input class="form-control mr-sm-2" type="password" placeholder="password">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" >login</button>
+          </form>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class="background-image" >
+	  <img class="d-block" src="image/background.jpg">
+	  <div class="bg-text "  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+	    <h2 style="font-family: 'Dancing Script', cursive; font-size:2.5vw;">Searching for BOOKS?</h2>
+	    <h1 style="font-size:50px; font-family: 'Indie Flower', cursive; font-size:3.5vw;">You will get it, RIGHT HERE!</h1>
+	    <p style="font-size:20px; font-family:'Amatic SC', cursive; font-size:1.5vw;">Every college books and all other second hand books available, HERE!</p>
+	</div>
+	
+    <div class="container mt-5 mb-5">
+		<div class="owl-carousel owl-theme">
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+			<div class="ml-2 mr-2" style="background-color: #ddd">
+				<div class="card">
+				<img  src="image/abc.jpg" class="card-img-top owl-lazy" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Searching for BOOKS?</h5>
+					<p class="card-text">A room without books is like a body without a soul.</p> 
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  
+  
+   
+  
+  
+  
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/jquery.mousewheel.min.js"></script>
+	   <script>
+		$('.owl-carousel').owlCarousel({
+			autoplay: true,
+			autoplayHoverPause: true,
+			lazyLoad:true,
+			margin:5,
+			stagePadding:5,
+			responsive:{
+				0:{
+				items:1,
+				dots:false,
+				loop:true
+				},
+				485:{
+				items:2,
+				dots:false,
+				loop:true
+				},
+				728:{
+				items:3,
+				dots:false,
+				loop:true
+				},
+				960:{
+				items:4,
+				dots:false,
+				loop:true
+				},
+				1200:{
+				items:5,
+				nav: true,
+				dots:true,
+				loop:true
+				}
+			}
+		});	
+		
+		$('.owl-carousel').on('mousewheel', '.owl-stage', function (e){
+			if (e.deltaY>0){
+				$('.owl-carousel').trigger('next.owl');
+			}else{
+				$('.owl-carousel').trigger('next.owl');
+			}
+			e.preventDefault();
+			
+			
+		});		
+   </script>
+
+
+
+
+
+
+  <div class="container marketing">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">― John Green,  <span class="text-muted">The Fault in Our Stars</span></h2>
+            <p class="lead">“Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.”</p>
+          </div>
+          <div class="col-md-5">
+		  <div data-aos="zoom-in">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="image/image1.jpg">
+          </div>
+        </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">― J.D. Salinger,<span class="text-muted"> The Catcher in the Rye</span></h2>
+            <p class="lead">“What really knocks me out is a book that, when you're all done reading it, you wish the author that wrote it was a terrific friend of yours and you could call him up on the phone whenever you felt like it. That doesn't happen much, though.”</p>
+          </div>
+          <div class="col-md-5 order-md-1 ">
+		  <div data-aos="zoom-in">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="image/image2.jpg">
+          </div>
+		  </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">― Jane Austen,  <span class="text-muted">Pride and Prejudice</span></h2>
+            <p class="lead">“I declare after all there is no enjoyment like reading! How much sooner one tires of any thing than of a book! -- When I have a house of my own, I shall be miserable if I have not an excellent library.”</p>
+          </div>
+          <div class="col-md-5">
+		  <div data-aos="zoom-in">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="image/image3.jpg">
+          </div>
+        </div>
+		</div>
+
+        <hr class="featurette-divider">
+
+
+
+ <script>
+  AOS.init();
+</script>
+
+
+
+
+
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+
+
+
+
+
+</body>
+</html>
